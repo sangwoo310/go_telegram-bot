@@ -1,2 +1,2 @@
-# go_telegram-bot
+# go_telegramBot
 telegram bot sample by GoLang
