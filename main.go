@@ -8,8 +8,8 @@ import (
 func main() {
 	log.Println("Telegram alarm bot program is start")
 
-	// bot token value
-	bot, err := tgbotapi.NewBotAPI("1209633330:AAEArq32PNoeMex1IhlH1mKENmLbWyrwE-Y")
+	// bot token value 1209633330:AAEArq32PNoeMex1IhlH1mKENmLbWyrwE-Y
+	bot, err := tgbotapi.NewBotAPI("토큰값")
 	if err != nil {
 		log.Fatalln("Telegram Bot API connect token connect fail")
 		panic(err)
