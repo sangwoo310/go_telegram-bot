@@ -66,6 +66,7 @@ func main() {
 
 	//********************************** 특정 시간까지 남은 시간 **********************************//
 	t, err := telegram.NewTelegram("1209633330:AAEArq32PNoeMex1IhlH1mKENmLbWyrwE-Y")
+	t, err := telegram.NewTelegram("1209633330:AAEArq32PNoeMex1IhlH1mKENmLbWyrwE-Y")
 	if err != nil {
 		log.Fatalln(err)
 	}
